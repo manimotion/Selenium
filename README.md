@@ -64,3 +64,30 @@ Example: `//a[contains(text(),'pragmatic')]`
 `//input[@value='janesh']`
 `//input[@name='username' and @placeholder='Username']`
 
+1) get methods
+2) conditional methods
+3) Browser methods
+4) Navigational methods
+5) wait methods
+
+get methods  - we can these methods through webdriver instance
+* get(url)
+* getTitle()
+* getCurrentURL()
+* getPageSource()
+* getWindowHandle()
+* getwindowHandles()
+
+conditional commands - access these commands thorugh WebElement
+
+Returns true/false ( boolean values)
+
+* isDisplayed()
+* isEnabled()
+* isSelected()
+
+
+browser methods
+
+* close() - close single browser window
+* quit()
