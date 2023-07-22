@@ -44,3 +44,23 @@ How to write our own xpath?
 
 	//*[@attribute='value']
 	//tagname[@attribute='value']
+
+Multiple attribute in xpath
+`//input[@name='username'][@placeholder='Username']`
+`//input[@name='username' and @placeholder='Username']`
+`//input[@name='xyz' or @placeholder='Username']`
+
+
+multiple attributes in xpath
+* last()
+* text()
+* starts-with()
+* contains()
+* and
+* or
+
+Example: `//a[contains(text(),'pragmatic')]`
+`//a[stars-with(text(),'pragmatic')]`
+`//input[@value='janesh']`
+`//input[@name='username' and @placeholder='Username']`
+
